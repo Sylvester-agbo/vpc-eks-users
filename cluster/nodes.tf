@@ -33,7 +33,7 @@ resource "aws_eks_node_group" "private-nodes" {
   }
 
   tags = {
-    "k8s.io/cluster-autoscaler/demo"    = "owend"
+    "k8s.io/cluster-autoscaler/demo"    = "owned"
     "k8s.io/cluster-autoscaler/enabled" = true
 
   }
